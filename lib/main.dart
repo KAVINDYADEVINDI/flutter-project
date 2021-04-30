@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget{
        length: 3,
        child: Scaffold( //it has appbar,body
           appBar: AppBar(
-            title: Text("Flutter",style: TextStyle(fontSize: 25.0,fontFamily: "RaleWay"),),
+            title: Text("mgmgmhgfmgfmg",style: TextStyle(fontSize: 25.0,fontFamily: "RaleWay"),),
             leading: IconButton(
               icon: Icon(Icons.menu),
               onPressed: (){},
