@@ -72,6 +72,7 @@ class MyHomePage extends StatelessWidget{
           // ),
           //set bottom
           bottom: TabBar(
+            //create 3 tabs
             tabs: [
               Tab(icon: Icon(Icons.directions_car),text: 'To Do',),
               Tab(icon: Icon(Icons.directions_transit),text: 'In Progress',),
