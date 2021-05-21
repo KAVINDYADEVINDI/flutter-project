@@ -61,14 +61,14 @@ class MyHomePage extends StatelessWidget{
             ],//widget array
 
             //set back image in background of appbar
-            // flexibleSpace: Icon(
-            //   Icons.photo_camera,
-            //   size: 75.0,
-            // ),
-           flexibleSpace: Image(
-            image: AssetImage('assets/back.jpg'),
-            fit: BoxFit.cover,
-          ),
+            flexibleSpace: Icon(
+              Icons.photo_camera,
+              size: 75.0,
+            ),
+          //  flexibleSpace: Image(
+          //   image: AssetImage('assets/back.jpg'),
+          //   fit: BoxFit.cover,
+          // ),
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.directions_car),text: 'To Do',),
