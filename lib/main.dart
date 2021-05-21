@@ -81,7 +81,7 @@ class MyHomePage extends StatelessWidget{
           ),
 
           elevation: 3.0, //shadow of the bottom
-          backgroundColor: Colors.blueAccent[700],
+          backgroundColor: Colors.blueAccent[700],//set backgroud color
            
         ),
 
