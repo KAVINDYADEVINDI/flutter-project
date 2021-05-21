@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'second_screen.dart';
 
 class MyHomePage extends StatelessWidget{
   @override
@@ -11,7 +12,12 @@ class MyHomePage extends StatelessWidget{
             title: Text("todo",style: TextStyle(fontSize: 25.0,fontFamily: "RaleWay"),),
             leading: IconButton(
               icon: Icon(Icons.menu),
-              onPressed: (){},
+              onPressed: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (_){
+                  return SecondScreen();
+                }
+                ));
+              },
             ),
 
             actions: [
