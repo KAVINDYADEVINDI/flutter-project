@@ -65,10 +65,10 @@ class MyHomePage extends StatelessWidget{
             //   Icons.photo_camera,
             //   size: 75.0,
             // ),
-          //  flexibleSpace: Image(
-          //   image: AssetImage('assets/back.jpg'),
-          //   fit: BoxFit.cover,
-          // ),
+           flexibleSpace: Image(
+            image: AssetImage('assets/back.jpg'),
+            fit: BoxFit.cover,
+          ),
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.directions_car),text: 'To Do',),
