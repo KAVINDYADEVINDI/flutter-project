@@ -40,6 +40,7 @@ class MyHomePage extends StatelessWidget{
     Widget build(BuildContext context) {
      return DefaultTabController(
        length: 3,
+       //scaffold
        child: Scaffold( //it has appbar,body
           appBar: AppBar(
             title: Text("todo",style: TextStyle(fontSize: 25.0,fontFamily: "RaleWay"),),
