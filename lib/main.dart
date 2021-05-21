@@ -82,6 +82,8 @@ class MyHomePage extends StatelessWidget{
           backgroundColor: Colors.blueAccent[700],
            
         ),
+
+        //body in app bar
         body: TabBarView(
           children: [
             tab1(),
