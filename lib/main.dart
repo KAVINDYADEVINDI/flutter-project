@@ -69,6 +69,7 @@ class MyHomePage extends StatelessWidget{
           //   image: AssetImage('assets/back.jpg'),
           //   fit: BoxFit.cover,
           // ),
+          //set bottom
           bottom: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.directions_car),text: 'To Do',),
