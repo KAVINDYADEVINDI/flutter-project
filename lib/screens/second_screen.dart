@@ -10,9 +10,21 @@ class SecondScreen extends StatelessWidget {
               onPressed: (){},
             ),
         ),
-        body: Center(
-          child: Text("second screen"),
-    ),
+        body: ListView(children:<Widget> [
+          Container(
+            height: 200,
+            color: Colors.white,
+          ),
+          Container(
+            height: 200,
+            color: Colors.white,
+          ),
+           Container(
+            height: 200,
+            color: Colors.white,
+          ),
+
+        ],)
   );
   }
 }
