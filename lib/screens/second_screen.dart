@@ -17,11 +17,11 @@ class SecondScreen extends StatelessWidget {
           ),
           Container(
             height: 200,
-            color: Colors.white,
+            color: Colors.green,
           ),
            Container(
             height: 200,
-            color: Colors.white,
+            color: Colors.yellow,
           ),
 
         ],)
