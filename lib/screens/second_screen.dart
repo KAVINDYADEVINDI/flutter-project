@@ -10,9 +10,11 @@ class SecondScreen extends StatelessWidget {
               onPressed: (){},
             ),
         ),
+
+        //add list view
         body: ListView(children:<Widget> [
           Container(
-            height: 200,
+            height: 600,
             color: Colors.white,
           ),
           Container(
